@@ -2,29 +2,18 @@ import streamlit as st
 
 st.set_page_config(
     page_title="CuarkX Platform",
-    page_icon="⚙️",
+    page_icon="assets/logo.png",
     layout="wide"
 )
 
-st.title("⚙️ CuarkX Platform")
+st.image("assets/logo.png", width=220)
 
-st.subheader("Industrial AI | Predictive Maintenance | Observability")
+st.title("Industrial AI Platform")
 
-st.markdown("---")
+st.caption(
+    "Predictive Maintenance | Observability | Edge AI | Digital Transformation"
+)
 
-st.success("Proyecto inicial configurado correctamente.")
+st.divider()
 
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.metric("Activos monitoreados", "0")
-
-with col2:
-    st.metric("Alertas", "0")
-
-with col3:
-    st.metric("Estado", "Inicializando")
-
-st.markdown("---")
-
-st.write("Bienvenido a CuarkX.")
+st.success("CuarkX Platform inicializada correctamente.")
