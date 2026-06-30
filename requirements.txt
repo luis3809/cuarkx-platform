@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+matplotlib
+joblib
+openpyxl
+sqlalchemy
+paho-mqtt
+opcua
+requests
+python-dotenv
