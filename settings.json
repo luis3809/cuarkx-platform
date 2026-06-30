@@ -1,0 +1,4 @@
+{
+"files.exclude": {
+    ".venv": true    
+}
